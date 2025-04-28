@@ -2,7 +2,7 @@
 
 This project demonstrates how to **securely connect AI agents to multiple data sources** using [Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/overview). It showcases real-world scenarios where agents must access financial data responsibly — with row-level restrictions, limited views, and masked outputs — depending on the user's access rights.
 
-Inspired by concepts in [this article](), this project explores **data-aware AI agents** that interact with APIs, databases, and the web, while respecting dynamic access controls.
+Inspired by concepts in [this article](https://neon.tech/blog/how-to-secure-data-access-for-ai-agents), this project explores **data-aware AI agents** that interact with APIs, databases, and the web, while respecting dynamic access controls.
 
 ---
 
@@ -109,7 +109,7 @@ python neondb_setup.py
 ```
 
 ### Run Data Access Scenarios
-You can run the two scripts to see various scenarios based on the article
+You can run the two scripts to see various scenarios based on the [article](https://neon.tech/blog/how-to-secure-data-access-for-ai-agents)
 
 ```
 python agent-data-acesss-scenario_one.py
