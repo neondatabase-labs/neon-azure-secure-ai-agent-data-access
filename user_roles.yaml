@@ -1,0 +1,12 @@
+users:
+  - username: user_a
+    roles:
+      - admin
+      - full_data_access
+  - username: user_b
+    roles: #comment each row for each scenario in the article
+      - restricted
+      - limited_api_access
+      - restricted_db
+      - row_restricted
+      - mask_data
